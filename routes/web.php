@@ -5,6 +5,8 @@ use App\Http\Controllers\PortfolioController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\guruController;
+use App\Http\Controllers\KegiatanController;
+use App\Http\Controllers\SantriController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -30,7 +32,7 @@ Route::get('/dashboard', [dashboardController::class, 'index'])->middleware('aut
 
 Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
 
-//Route::get('/', [LoginController::class, 'index'])->name('login')->middleware('guest');
+Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
 Route::post('/login', [LoginController::class, 'login'])->name('login.store');
 
 Route::get('/register', [RegisterController::class, 'index'])->name('register');
@@ -58,4 +60,14 @@ Route::get('/details/detail9', [PortfolioController::class, 'showDetail9'])->nam
 // Tambahkan rute lainnya sesuai kebutuhan
 
 // Tambahkan rute lainnya sesuai kebutuhan
+Route::resource('kegiatans', KegiatanController::class);
 
+
+
+
+Route::get('/santri', [SantriController::class, 'index'])->name('santri.index');
+Route::get('/santri/create', [SantriController::class, 'create'])->name('santri.create');
+Route::post('/santri', [SantriController::class, 'store'])->name('santri.store');
+Route::get('/santri/{santri}/edit', [SantriController::class, 'edit'])->name('santri.edit');
+Route::put('/santri/{santri}', [SantriController::class, 'update'])->name('santri.update');
+Route::delete('/santri/{santri}', [SantriController::class, 'destroy'])->name('santri.destroy');

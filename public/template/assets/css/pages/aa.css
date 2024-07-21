@@ -1,0 +1,31 @@
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.card-link:hover .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    background-color: #f8f9fa;
+}
+.card-link:hover .card-title,
+.card-link:hover .view-data {
+    color: #007bff;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.stats-icon {
+    font-size: 24px;
+    align-self: flex-end;
+}
+.view-data {
+    margin-top: 15px;
+    text-decoration: underline;
+    font-size: 14px;
+}

@@ -12,10 +12,8 @@
                 <h3>Ponpes API</h3>
                 <p>Selamat datang di Ponpes API, di mana kami menyediakan lingkungan yang mendukung untuk belajar dan perkembangan pribadi. Misi kami adalah untuk menumbuhkan pengetahuan, spiritualitas, dan keterlibatan masyarakat di antara para siswa kami.</p>
                 <div class="social-links">
-                    <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
                     <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
                     <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                    <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
                 </div>
             </div>
         </div>

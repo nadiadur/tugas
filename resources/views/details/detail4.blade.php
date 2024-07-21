@@ -33,7 +33,7 @@
             <div class="container d-flex align-items-center">
         
               <div class="logo me-auto">
-                <h1><a href="index.html">Ponper Asrama Pendidikan Islam</a></h1>
+                <h1><a href="index.html">Asrama Pendidikan Islam</a></h1>
                 <!-- Uncomment below if you prefer to use an image logo -->
                 <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
               </div>
@@ -51,11 +51,11 @@
             <div class="container">
 
                 <div class="d-flex justify-content-between align-items-center">
-                    <h2>Portfolio Details</h2>
+                    <h2>Portofolio Details</h2>
                     <ol>
                         <li><a href="{{ url('/') }}">Home</a></li>
-                        <li><a href="{{ url('/details.portfolio1') }}">Portfolio</a></li>
-                        <li>Portfolio Details</li>
+                      
+                        <li>Portofolio Details</li>
                     </ol>
                 </div>
 
@@ -74,15 +74,11 @@
                             <div class="swiper-wrapper align-items-center">
 
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('tampilan/assets/img/portfolio/portfolio-1.jpg') }}" alt="">
+                                    <img src="{{ asset('tampilan/assets/img/portfolio/dapur1.png') }}" alt="">
                                 </div>
 
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('tampilan/assets/img/portfolio/portfolio-2.jpg') }}" alt="">
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <img src="{{ asset('tampilan/assets/img/portfolio/portfolio-3.jpg') }}" alt="">
+                                    <img src="{{ asset('tampilan/assets/img/portfolio/dapur2.png') }}" alt="">
                                 </div>
 
                             </div>
@@ -92,18 +88,17 @@
 
                     <div class="col-lg-4">
                         <div class="portfolio-info">
-                            <h3>Project information</h3>
+                            <h3>Dapur Pondok</h3>
                             <ul>
-                                <li><strong>Category</strong>: Web design</li>
-                                <li><strong>Client</strong>: ASU Company</li>
-                                <li><strong>Project date</strong>: 01 March, 2020</li>
-                                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                                <li><strong>Category</strong>: Fasilitas</li>
+                                <li><strong>Lokasi</strong>: Dapur Pondok</li>
+                                <li><strong>Tanggal </strong>: 16 Januari, 2024</li>
                             </ul>
                         </div>
                         <div class="portfolio-description">
-                            <h2>This is an example of portfolio detail</h2>
+                            <h2>Deskripsi Pelaksanaan</h2>
                             <p>
-                                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                                Dapur pondok merupakan fasilitas penting yang mendukung kebutuhan makan sehari-hari bagi seluruh penghuni pondok. Dapur ini dilengkapi dengan peralatan memasak yang memadai dan area persiapan makanan yang bersih dan terorganisir. Selain menyediakan makanan bergizi, dapur juga berfungsi sebagai tempat kegiatan memasak bersama, yang mempererat hubungan antar penghuni pondok dan menciptakan suasana kekeluargaan.
                             </p>
                         </div>
                     </div>

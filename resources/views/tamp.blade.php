@@ -53,6 +53,59 @@
 
   <!-- Template Main JS File -->
   <script src="tampilan/assets/js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const elements = document.querySelectorAll('.slide-in');
+
+        const checkVisibility = () => {
+            const windowHeight = window.innerHeight;
+            const windowTop = window.scrollY;
+            const windowBottom = windowTop + windowHeight;
+
+            elements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top + window.scrollY;
+                const elementBottom = elementTop + element.offsetHeight;
+
+                if (elementBottom > windowTop && elementTop < windowBottom) {
+                    element.classList.add('visible');
+                } else {
+                    element.classList.remove('visible');
+                }
+            });
+        };
+
+        // Check visibility on scroll and resize
+        window.addEventListener('scroll', checkVisibility);
+        window.addEventListener('resize', checkVisibility);
+
+        // Initial check
+        checkVisibility();
+    });
+</script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+      const elements = document.querySelectorAll('.team .member');
+
+      function checkVisibility() {
+          const windowHeight = window.innerHeight;
+          elements.forEach(el => {
+              const elementTop = el.getBoundingClientRect().top;
+              if (elementTop < windowHeight - 100) { // Adjust for triggering point
+                  el.classList.add('visible');
+              } else {
+                  el.classList.remove('visible');
+              }
+          });
+      }
+
+      // Initial check
+      checkVisibility();
+
+      // Check on scroll
+      window.addEventListener('scroll', checkVisibility);
+  });
+</script>
+
 
 </body>
 

@@ -21,7 +21,8 @@
   
     <!-- Template Main CSS File -->
     <link href="tampilan/assets/css/style.css" rel="stylesheet">
-  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
     <!-- =======================================================
     * Template Name: Amoeba
     * Template URL: https://bootstrapmade.com/free-one-page-bootstrap-template-amoeba/

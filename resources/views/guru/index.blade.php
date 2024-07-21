@@ -46,7 +46,7 @@
                                         <td >{{$guru->telpon}}</td>
                                         <td>
                                             <div class="d-flex">
-                                                <a class="btn btn-warning mx-1" 
+                                                <a class="btn btn-primary mx-1" 
                                                 href="{{ route('guru.edit' , $guru->id) }}">Update</a>
                                                 <form action="{{ route('guru.destroy', $guru->id) }}" method="POST" >
                                                     @csrf

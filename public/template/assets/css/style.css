@@ -1,0 +1,295 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background: #f4f4f9;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 350px; /* Ubah lebar maksimal jika diperlukan */
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 30px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    font-size: 28px;
+    font-weight: bold;
+    color: #00d3b8;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: calc(100% - 55px); /* Menyisakan ruang untuk ikon di sebelah kiri */
+    padding: 15px;
+    padding-left: 40px; /* Ruang untuk ikon */
+    border: 2px solid #ddd;
+    border-radius: 30px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+    border-color: #00d3b8;
+}
+
+.input-group .icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #00d3b8;
+    font-size: 18px;
+}
+
+.btn {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    background: #00d3b8;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background: #00bfae;
+    transform: scale(1.05);
+}
+
+.alert {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.alert .btn-close {
+    background: transparent;
+    border: none;
+    color: #721c24;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.alert .btn-close:hover {
+    color: #f5c6cb;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text-center p {
+    margin: 10px 0;
+}
+
+.link {
+    color: #00d3b8;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background: #f4f4f9;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 400px; /* Sesuaikan jika diperlukan */
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 30px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    font-size: 28px;
+    font-weight: bold;
+    color: #00d3b8;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: calc(100% - 55px); /* Menyisakan ruang untuk ikon di sebelah kiri */
+    padding: 15px;
+    padding-left: 40px; /* Ruang untuk ikon */
+    border: 2px solid #ddd;
+    border-radius: 30px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+    border-color: #00d3b8;
+}
+
+.input-group .icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #00d3b8;
+    font-size: 18px;
+}
+
+.btn {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    background: #00d3b8;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background: #00bfae;
+    transform: scale(1.05);
+}
+
+.alert {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.alert ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.alert li {
+    margin-bottom: 10px;
+}
+
+.alert .btn-close {
+    background: transparent;
+    border: none;
+    color: #721c24;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.alert .btn-close:hover {
+    color: #f5c6cb;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text-center p {
+    margin: 10px 0;
+}
+
+.link {
+    color: #00d3b8;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -33,7 +33,7 @@
             <div class="container d-flex align-items-center">
         
               <div class="logo me-auto">
-                <h1><a href="index.html">Ponper Asrama Pendidikan Islam</a></h1>
+                <h1><a href="index.html">Asrama Pendidikan Islam</a></h1>
                 <!-- Uncomment below if you prefer to use an image logo -->
                 <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
               </div>
@@ -54,7 +54,7 @@
                     <h2>Portfolio Details</h2>
                     <ol>
                         <li><a href="{{ url('/') }}">Home</a></li>
-                        <li><a href="{{ url('/details.portfolio1') }}">Portfolio</a></li>
+                        
                         <li>Portfolio Details</li>
                     </ol>
                 </div>
@@ -92,18 +92,17 @@
 
                     <div class="col-lg-4">
                         <div class="portfolio-info">
-                            <h3>Project information</h3>
+                            <h3>Perayaan Idhul Adha</h3>
                             <ul>
-                                <li><strong>Category</strong>: Web design</li>
-                                <li><strong>Client</strong>: ASU Company</li>
-                                <li><strong>Project date</strong>: 01 March, 2020</li>
-                                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                                <li><strong>Category</strong>: Moment</li>
+                                <li><strong>Lokasi</strong>: Halaman Pondok</li>
+                                <li><strong>Tanggal </strong>: 17 Juni, 2024</li>
                             </ul>
                         </div>
                         <div class="portfolio-description">
-                            <h2>This is an example of portfolio detail</h2>
+                            <h2>Deskripsi Pelaksanaan</h2>
                             <p>
-                                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                                Perayaan Idul Adha di pondok pesantren dimulai dengan shalat berjamaah, diikuti prosesi penyembelihan hewan kurban. Daging kurban dibagikan kepada santri, pengurus, dan masyarakat sekitar sebagai bentuk kepedulian dan rasa syukur. Acara ini mempererat tali silaturahmi dan menanamkan nilai-nilai kepedulian sosial.
                             </p>
                         </div>
                     </div>

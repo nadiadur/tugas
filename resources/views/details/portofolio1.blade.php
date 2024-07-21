@@ -2,16 +2,16 @@
     <div class="container">
 
       <div class="section-title">
-        <h2>Our Portfolio</h2>
+        <h2>Our Portofolio</h2>
       </div>
 
       <div class="row">
         <div class="col-lg-12">
           <ul id="portfolio-flters">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">Kegiatan</li>
-            <li data-filter=".filter-card">Card</li>
-            <li data-filter=".filter-web">Web</li>
+            <li data-filter=".filter-app">Moment</li>
+            <li data-filter=".filter-card">Fasilitas</li>
+            <li data-filter=".filter-web">Rutinan</li>
           </ul>
         </div>
       </div>
@@ -20,11 +20,11 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
-            <img src="tampilan/assets/img/portfolio/p1.png" class="img-fluid" alt="">
+            <img src="tampilan/assets/img/portfolio/kucing1.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h3><a href="tampilan/assets/img/portfolio/p1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1">App 1</a></h3>
+              <h3><a href="tampilan/assets/img/portfolio/kucing1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Bermain">Bermain</a></h3>
               <div>
-                <a href="tampilan/assets/img/portfolio/p1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
+                <a href="tampilan/assets/img/portfolio/kucing1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Bermain"><i class="bi bi-plus"></i></a>
                 <a href="{{ route('details.detail1') }}" title="Details"><i class="bi bi-link"></i></a>
               </div>
             </div>
@@ -33,11 +33,11 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="tampilan/assets/img/portfolio/p2.png" class="img-fluid" alt="">
+            <img src="tampilan/assets/img/portfolio/belajar1.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h3><a href="tampilan/assets/img/portfolio/p2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3">Web 3</a></h3>
+              <h3><a href="tampilan/assets/img/portfolio/belajar1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Belajar">Belajar</a></h3>
               <div>
-                <a href="tampilan/assets/img/portfolio/p2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                <a href="tampilan/assets/img/portfolio/belajar1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Belajar"><i class="bi bi-plus"></i></a>
                 <a href="{{ route('details.detail2') }}" title="Details"><i class="bi bi-link"></i></a>
               </div>
             </div>
@@ -59,11 +59,11 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-card">
           <div class="portfolio-wrap">
-            <img src="tampilan/assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+            <img src="tampilan/assets/img/portfolio/dapur1.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h3><a href="tampilan/assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2">Card 2</a></h3>
+              <h3><a href="tampilan/assets/img/portfolio/dapur1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Dapur">Dapur</a></h3>
               <div>
-                <a href="tampilan/assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
+                <a href="tampilan/assets/img/portfolio/dapur1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Dapur"><i class="bi bi-plus"></i></a>
                 <a href="{{ route('details.detail4') }}" title="Details"><i class="bi bi-link"></i></a>
               </div>
             </div>
@@ -72,24 +72,24 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="tampilan/assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+            <img src="tampilan/assets/img/portfolio/sholat.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h3><a href="tampilan/assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2">Web 2</a></h3>
+              <h3><a href="tampilan/assets/img/portfolio/sholat.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Jama'ah">Jama'ah</a></h3>
               <div>
-                <a href="tampilan/assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
+                <a href="tampilan/assets/img/portfolio/sholat.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Jama'ah"><i class="bi bi-plus"></i></a>
                 <a href="{{ route('details.detail5') }}" title="Details"><i class="bi bi-link"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
           <div class="portfolio-wrap">
-            <img src="tampilan/assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+            <img src="tampilan/assets/img/portfolio/kamar.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h3><a href="tampilan/assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3">App 3</a></h3>
+              <h3><a href="tampilan/assets/img/portfolio/kamar.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Kamar">Kamar</a></h3>
               <div>
-                <a href="tampilan/assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
+                <a href="tampilan/assets/img/portfolio/kamar.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Kamar"><i class="bi bi-plus"></i></a>
                 <a href="{{ route('details.detail6') }}" title="Details"><i class="bi bi-link"></i></a>
               </div>
             </div>
@@ -98,11 +98,11 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-card">
           <div class="portfolio-wrap">
-            <img src="tampilan/assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+            <img src="tampilan/assets/img/portfolio/aula.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h3><a href="tampilan/assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1">Card 1</a></h3>
+              <h3><a href="tampilan/assets/img/portfolio/aula.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Aula Pondok">Aula</a></h3>
               <div>
-                <a href="tampilan/assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bi bi-plus"></i></a>
+                <a href="tampilan/assets/img/portfolio/aula.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Aula Pondok"><i class="bi bi-plus"></i></a>
                 <a href="{{ route('details.detail7') }}" title="Details"><i class="bi bi-link"></i></a>
               </div>
             </div>
@@ -111,11 +111,11 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-card">
           <div class="portfolio-wrap">
-            <img src="tampilan/assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+            <img src="tampilan/assets/img/portfolio/km.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h3><a href="tampilan/assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3">Card 3</a></h3>
+              <h3><a href="tampilan/assets/img/portfolio/km.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Kamar Mandi ">Kamar Mandi</a></h3>
               <div>
-                <a href="tampilan/assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bi bi-plus"></i></a>
+                <a href="tampilan/assets/img/portfolio/km.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Kamar Mandi "><i class="bi bi-plus"></i></a>
                 <a href="{{ route('details.detail8') }}" title="Details"><i class="bi bi-link"></i></a>
               </div>
             </div>
@@ -126,9 +126,9 @@
           <div class="portfolio-wrap">
             <img src="tampilan/assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h3><a href="tampilan/assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 1">Web 1</a></h3>
+              <h3><a href="tampilan/assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Mengaji">Mengaji</a></h3>
               <div>
-                <a href="tampilan/assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 1"><i class="bi bi-plus"></i></a>
+                <a href="tampilan/assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="WMengaji"><i class="bi bi-plus"></i></a>
                 <a href="{{ route('details.detail9') }}" title="Details"><i class="bi bi-link"></i></a>
               </div>
             </div>

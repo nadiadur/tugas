@@ -24,73 +24,33 @@
             
             <li
                 class="sidebar-item active ">
-                <a href="index.html" class='sidebar-link'>
+                <a href="/dashboard" class='sidebar-link'>
                     <i class="bi bi-grid-fill"></i>
                     <span>Dashboard</span>
                 </a>
             </li>
+          
             
-            <li
-                class="sidebar-item">
-                <a href="{{ route('guru.index') }}" class='sidebar-link'>
-                    <i class="bi bi-stack"></i>
-                    <span>Data Guru</span>
-                </a>
-                
-            </li>
-            
-            <li
-                class="sidebar-item  has-sub">
-                <a href="#" class='sidebar-link'>
-                    <i class="bi bi-collection-fill"></i>
-                    <span>Extra Components</span>
-                </a>
-                <ul class="submenu ">
-                    <li class="submenu-item ">
-                        <a href="extra-component-avatar.html">Avatar</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="extra-component-sweetalert.html">Sweet Alert</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="extra-component-toastify.html">Toastify</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="extra-component-rating.html">Rating</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="extra-component-divider.html">Divider</a>
-                    </li>
-                </ul>
-            </li>
-            
-            <li
-                class="sidebar-item  has-sub">
+            <li class="sidebar-item has-sub">
                 <a href="#" class='sidebar-link'>
                     <i class="bi bi-grid-1x2-fill"></i>
-                    <span>Layouts</span>
+                    <span>Data</span>
                 </a>
-                <ul class="submenu ">
-                    <li class="submenu-item ">
-                        <a href="layout-default.html">Default Layout</a>
+                <ul class="submenu {{ request()->is('*') ?  : '' }}" style="display: none;">
+                    <li class="submenu-item {{ request()->is('guru*') ? 'active' : '' }}">
+                        <a href="{{ route('guru.index') }}">Guru</a>
                     </li>
-                    <li class="submenu-item ">
-                        <a href="layout-vertical-1-column.html">1 Column</a>
+                    <li class="submenu-item {{ request()->is('santri*') ? 'active' : '' }}">
+                        <a href="{{ route('santri.index') }}">Santri</a>
                     </li>
-                    <li class="submenu-item ">
-                        <a href="layout-vertical-navbar.html">Vertical Navbar</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="layout-rtl.html">RTL Layout</a>
-                    </li>
-                    <li class="submenu-item ">
-                        <a href="layout-horizontal.html">Horizontal Menu</a>
+                    <li class="submenu-item {{ request()->is('kegiatans*') ? 'active' : '' }}">
+                        <a href="{{ route('kegiatans.index') }}">Kegiatan</a>
                     </li>
                 </ul>
             </li>
+         
             
-            <li class="sidebar-title">Forms &amp; Tables</li>
-            
+
 
             
             <li
