@@ -73,11 +73,7 @@
                             <div class="swiper-wrapper align-items-center">
 
                                 <div class="swiper-slide">
-                                    <img src="{{ asset('tampilan/assets/img/portfolio/kucing1.png') }}" alt="">
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <img src="{{ asset('tampilan/assets/img/portfolio/kucing2.png') }}" alt="">
+                                    <img src="{{ asset('tampilan/assets/img/portfolio/wisuda.png') }}" alt="">
                                 </div>
 
                             </div>
@@ -87,19 +83,18 @@
 
                     <div class="col-lg-4">
                         <div class="portfolio-info">
-                            <h3>Bermain di Pondok</h3>
+                            <h3>Wisuda Haflah Bil-Ghoib</h3>
                             <ul>
                                 <li><strong>Kategori</strong>: Moment</li>
-                                <li><strong>Lokasi</strong>: Halaman Pondok</li>
-                                <li><strong>Tanggal</strong>: 01 Maret, 2024</li>
+                                <li><strong>Lokasi</strong>: Pondok</li>
+                                <li><strong>Tanggal</strong>: 21 Juli, 2024</li>
                             </ul>
                         </div>
                         <div class="portfolio-description">
                             <h2>Deskripsi Pelaksanaan</h2>
                             <p>
-                                Suasana bermain di pondok memberikan kesempatan bagi siswa untuk berinteraksi dan bersosialisasi di lingkungan yang mendukung. 
-                                Halaman pondok menjadi tempat yang penuh keceriaan, di mana siswa dapat menikmati berbagai aktivitas luar ruangan seperti permainan tradisional dan olahraga. 
-                               
+                                Wisuda Haflah Bil-Ghoib adalah acara puncak bagi para santri yang telah menghafal Al-Quran. 
+                                Dilaksanakan di halaman pondok dengan suasana khidmat, para santri menerima penghargaan di hadapan keluarga dan kerabat.
                             </p>
                         </div>
                     </div>

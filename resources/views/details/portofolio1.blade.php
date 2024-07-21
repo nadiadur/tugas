@@ -20,11 +20,11 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
-            <img src="tampilan/assets/img/portfolio/kucing1.png" class="img-fluid" alt="">
+            <img src="tampilan/assets/img/portfolio/wisuda.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h3><a href="tampilan/assets/img/portfolio/kucing1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Bermain">Bermain</a></h3>
+              <h3><a href="tampilan/assets/img/portfolio/wisuda.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Wisuda">Wisuda</a></h3>
               <div>
-                <a href="tampilan/assets/img/portfolio/kucing1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Bermain"><i class="bi bi-plus"></i></a>
+                <a href="tampilan/assets/img/portfolio/wisuda.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Wisuda"><i class="bi bi-plus"></i></a>
                 <a href="{{ route('details.detail1') }}" title="Details"><i class="bi bi-link"></i></a>
               </div>
             </div>
@@ -124,9 +124,9 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="tampilan/assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+            <img src="tampilan/assets/img/portfolio/belajar2.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h3><a href="tampilan/assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Mengaji">Mengaji</a></h3>
+              <h3><a href="tampilan/assets/img/portfolio/belajar2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Mengaji">Mengaji</a></h3>
               <div>
                 <a href="tampilan/assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="WMengaji"><i class="bi bi-plus"></i></a>
                 <a href="{{ route('details.detail9') }}" title="Details"><i class="bi bi-link"></i></a>

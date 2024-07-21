@@ -11,10 +11,6 @@
             <div class="contact-about">
                 <h3>Ponpes API</h3>
                 <p>Selamat datang di Ponpes API, di mana kami menyediakan lingkungan yang mendukung untuk belajar dan perkembangan pribadi. Misi kami adalah untuk menumbuhkan pengetahuan, spiritualitas, dan keterlibatan masyarakat di antara para siswa kami.</p>
-                <div class="social-links">
-                    <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                    <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                </div>
             </div>
         </div>
 
@@ -24,15 +20,13 @@
                     <i class="bi bi-geo-alt"></i>
                     <p>Rw. 04, Pelemkerep, Kec. Mayong, Kabupaten Jepara <br>Jawa Tengah 59465</p>
                 </div>
-
-                <div>
-                    <i class="bi bi-envelope"></i>
-                    <p>info@example.com</p>
-                </div>
-
                 <div>
                     <i class="bi bi-phone"></i>
                     <p>+62 852-9026-0009</p>
+                </div>
+                <div>
+                    <i class="bi bi-instagram"></i>
+                    <p>pp_asramaperguruanislam</p>
                 </div>
 
             </div>
