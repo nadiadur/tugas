@@ -576,6 +576,10 @@ section {
 .services .description {
   line-height: 24px;
   font-size: 14px;
+  margin-left: 15px;
+}
+.description .li {
+  margin-left: 15px;
 }
 
 /*--------------------------------------------------------------

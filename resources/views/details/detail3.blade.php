@@ -94,7 +94,7 @@
                         <div class="portfolio-info">
                             <h3>Perayaan Idhul Adha</h3>
                             <ul>
-                                <li><strong>Category</strong>: Moment</li>
+                                <li><strong>Kategori</strong>: Moment</li>
                                 <li><strong>Lokasi</strong>: Halaman Pondok</li>
                                 <li><strong>Tanggal </strong>: 17 Juni, 2024</li>
                             </ul>

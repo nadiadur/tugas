@@ -176,7 +176,7 @@
         </li>
 
         <li>
-          <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Apa saja program belajar yang ada dalam ponpes? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+          <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Apa saja program belajar yang ada dalam Ponpes API? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
           <div id="faq4" class="collapse" data-bs-parent=".faq-list">
             <p>
               Pondok pesantren menyediakan program belajar Al-Quran dan kitab-kitab salaf untuk memungkinkan santri menghafal dan mempelajari Al-Quran serta kitab-kitab tersebut.
